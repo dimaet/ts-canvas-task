@@ -148,7 +148,6 @@ canvas.addEventListener("mousemove", (e) => {
     const idx = dragTarget.index;
     cps[idx].point.x = mouse.x - dragOffset.x;
     cps[idx].point.y = mouse.y - dragOffset.y;
-    // угол не меняем!
   }
   render();
 });
@@ -221,7 +220,6 @@ canvas.addEventListener("mouseup", () => {
       cp.point.y = snapInfo.y;
       cp.angle = snapInfo.angle;
     }
-    // если не прилипло — угол не меняем
   }
   dragTarget = null;
   render();
