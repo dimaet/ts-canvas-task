@@ -1,0 +1,33 @@
+# Node
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+
+# Jest
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Mac
+*.DS_Store
+
+# Netlify
+.netlify/
